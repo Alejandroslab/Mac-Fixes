@@ -1,0 +1,10 @@
+“App is Damaged Can’t Be Opened” Error Message in mac OS Sierra is a common error when you try to install a non-AppStore app. See this tips to fix fix it easily
+1. Open a Terminal with appropriate privileges (“sudo bash” to make you root on most systems)
+
+2. Enter the following, substituting “AppName” with the real name of the app:
+
+sudo xattr -cr /Applications/AppName.app
+
+3. Press Enter to run the command.
+
+This should remove the flag currently set on the app.
