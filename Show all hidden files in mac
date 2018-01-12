@@ -1,5 +1,8 @@
+You can just press:
 
-To show hidden files on mac
+CMD + Shift + . 
+
+Or in terminal:
 
 defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
 
