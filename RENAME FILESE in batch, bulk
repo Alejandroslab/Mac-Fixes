@@ -1,0 +1,11 @@
+1.Select all the files in the Finder of Mac OS that you wish to batch rename 
+
+2.Right-click (or Control+Click) on the selected files and choose “Rename X Items” where X is the number of files selected
+
+3. In the “Rename Finder Items” tool that appears, choose ‘Replace Text’ from the dropdown (this is the default)
+4. Modify the “Find” search to match the string you wish to replace, then modify the “Replace With” box 
+to match what you want the files to be renamed to.
+
+if you leave 'Replace Text' box empty it will delete the string that you want to delete
+
+Try it! it's easy!
