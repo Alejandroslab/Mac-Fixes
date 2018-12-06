@@ -1,0 +1,11 @@
+Mac: By default, Terminal always launches into your home directory. 
+For the most part, that's all you really need, but for those occasions when you need to go to a specific folder 
+it's a pain to get there. 
+In Mavericks there's an easy way to launch Terminal directly from a folder of your choosing now.
+
+Head into System Preferences and select Keyboard > Shortcuts > Services. 
+Find "New Terminal at Folder" in the settings and click the box. 
+Now, when you're in Finder, just right-click a folder and you're shown the open to open Terminal. 
+
+When you do, it'll start right in the folder you're in!
+It's not always necessary, but it's a big help for all those Terminal commands that require a very specific location.
