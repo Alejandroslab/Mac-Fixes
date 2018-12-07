@@ -1,0 +1,7 @@
+just type (no 'sudo' necessary)
+
+defaults write com.apple.screencapture location 
+
+after 'location' drag the folder you wish to become your screenshot folder or just type the path
+
+You are done!
