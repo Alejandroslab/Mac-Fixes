@@ -1,0 +1,6 @@
+If you want that your pdfs open in 'Preview' default app 
+in a new tab and not in a new window:
+
+Go to system preferences --> Dock --> Prefer tabs when opening documents --> Select 'always'.
+
+You are done
