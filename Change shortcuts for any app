@@ -3,3 +3,8 @@ Click on '+', Select the app, set the Menu Title exactly as it appears in the me
 
 For instance for Preview, select Preview and the Menu Title like 'Highlight Text' then create the shortcut.
 Done
+
+If it is a command under a submenu just type in 'Menu Title' space as for example:
+File->Export->Sub-item
+
+with the '->' symbol to indicate a submenu.
