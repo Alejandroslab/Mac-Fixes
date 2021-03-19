@@ -1,0 +1,8 @@
+Sometimes you will still need fat32.
+Although is known that fat32 is a very old file system it still could be
+necessary in some system like old routers that only supports external
+disk formatted as FAT32..
+
+Anyways just open 'Disk Utility'
+click on 'Erase' then select 'MS-DOS FAT' and for scheme
+select 'Master Boot Record' that is a scheme from the '80s.
