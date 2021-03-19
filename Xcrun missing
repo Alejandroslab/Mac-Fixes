@@ -1,0 +1,5 @@
+After updating Git might not work properly
+
+you will need to install developer tools with:
+
+xcode-select --install
