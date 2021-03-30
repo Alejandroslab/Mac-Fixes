@@ -1,0 +1,6 @@
+cmd +i
+
+the total number of FILES
+includes also the number of subdirectories
+to get the exact number you have to subctract them
+(and also subtract the DS Store file)
