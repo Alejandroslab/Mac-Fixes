@@ -1,0 +1,6 @@
+The simplest solution is to create the file DefaultKeyBinding.dict in /Users/[user]/Library/KeyBindings if it does not already exist, and add the remapping:
+{
+   "#," = ("insertText:", ".");
+}
+Then restart the mac.
+The # indicates the remapping is for the keypad only.

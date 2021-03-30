@@ -1,0 +1,10 @@
+Open activity monitor select
+'bird' process and force quit
+
+it just restarts icloud
+
+
+OR:
+killall bird
+cd ~/Library/Application\ Support
+rm -rf CloudDocs
