@@ -1,0 +1,27 @@
+Avidemux is FOSS
+
+to join 2 videos
+
+open video
+
+select the first part
+
+then go to File->Append
+
+select the second part
+
+now be sure that video output and audio output are set
+
+in 'copy'
+
+select as output 'avi muxer'
+
+now go to File->Save
+
+done!
+
+
+you can do this with .avi or .vob
+
+with .vob files don't click ok when it asks to load all
+the videos from a folder (when you have more than 2 video files)

@@ -1,0 +1,16 @@
+select all volumes
+select GUID partition and then AFPS that is one of the alternative to encrypt the HD
+the other alternative is MacOS Journaled file system
+
+Anyways using those file system means that they will only work on apple
+
+it cannot be encrypted a disk after formatting
+
+if you want to encrypt it you have to do at the very beginning
+
+
+REMEMBER! Mac will not read bitlocker encrypted disks
+and cannot write on ntfs hds natively
+
+a solution to this is just to run Parallels and load
+the hd in Parallels

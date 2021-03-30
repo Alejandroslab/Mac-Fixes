@@ -1,0 +1,11 @@
+
+Network Fix:
+1. sudo nano /Library/Preferences/Parallels/network.desktop.xml
+2. find <UseKextless>1</UseKextless> (value can be -1), and change the value to the <UseKextless>0</UseKextless>
+3. if you can't to find this tag, then just create it under root tag <ParallelsNetworkConfig ...>here</ParallelsNetworkConfig>
+
+USB Fix:
+1. /Library/Preferences/Parallels/dispatcher.desktop.xml
+2. <Usb>0</Usb> find ==>> <Usb>1</Usb>
+
+Result: you can start/restart Parallels without sudo - network will work.

@@ -1,0 +1,3 @@
+run this on terminal and it will reset all network configurations in Parallels
+
+sudo -b /Applications/Parallels\ Desktop.app/Contents/MacOS/prl_client_app

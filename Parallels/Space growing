@@ -1,0 +1,11 @@
+Open your windows image in Parallels
+go to disk manager
+
+click right on the main hd
+
+select 'shrink'
+
+this will create a new partition not allocated
+(black label) called 'Unallocated space'
+
+Now the windows hd will not grow anymore
