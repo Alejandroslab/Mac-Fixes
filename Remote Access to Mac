@@ -1,0 +1,12 @@
+go to settings ->sharing
+click on screen sharing
+click on computer setting and check
+VNC viewer
+
+then download VNCviewer
+
+type in the credentials to access to your mac
+
+
+don't install apple remote desktop in your mac
+or vnc will go in conflict (just close apple remote deskotp)
