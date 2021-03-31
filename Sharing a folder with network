@@ -10,6 +10,14 @@ and read or read/write if you need
 (alternative you can access with your account or generally with
 any account that is available in the 'Users and Groups' settings )
 
+REMEMBER! always take note of all your credentials even THE OLD ones
+as windows sometimes will not recognize the new credentials if you change them!
+such a crap...
+
+Open finder and 'connect to the server ' or cmd + k
+type in your credentials
+
+
 in case you want to use guest you need to go to users then click on
 'Guest' and check if 'Allow shared folder' is enabled.
 
