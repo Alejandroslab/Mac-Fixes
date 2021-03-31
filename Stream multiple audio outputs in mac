@@ -1,0 +1,11 @@
+
+
+For this you can use the App "Audio MIDI Setup" in /Applications/Utilities.
+
+When you open the app, you will see a list of all audio devices in the list to the left. With the "+" button at the bottom you can create a new Aggregate Device or a Multi-Output Device.
+
+The devices created there will show up as normal audio devices in the system preferences' "Sound" settings.
+
+The Multi-Output Device seems to be what you are looking for. It will output the audio to all devices enabled in the right part of the window.
+
+The Aggregate Device allows you to join multiple sound cards to simulate one audio device with more output channels (e.g. instead of four separate stereo outputs you would see a single 8 channel output).
