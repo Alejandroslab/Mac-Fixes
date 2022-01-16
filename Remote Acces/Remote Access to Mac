@@ -1,11 +1,15 @@
 go to settings ->sharing
-click on screen sharing
-click on computer setting and check
-VNC viewer
+click on screen sharing (enable it)
+click on computer setting and check VNC viewer
 
-then download VNCviewer
+then download VNCviewer in your Windows machine
 
 type in the credentials to access to your mac
+To know which user are you logged in:
+
+whoami
+
+Type the password you use to login and not the password that you can set in the Mac settings in the VNC option
 
 
 don't install apple remote desktop in your mac
