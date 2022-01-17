@@ -1,0 +1,15 @@
+You know that Parallels disks have the format .hdd
+
+QNAP Virtualization Station 3 only supports hard disks that have .img format.
+
+Therefore we need to convert it:
+
+Convert the .hdd to plain format by deselecting Expanding Disk in Virtual Machine -> Configure... -> Hardware -> Hard Disk # -> Edit...
+(The Parallels VM must be shutted down)
+
+Then you can just change the extension in the .hdd package from .hds to .dmg or .img.
+
+The problem of this is that if the static space that your Parallels VM uses
+is higher than the local space the 'Expanding disk' disable funcionality will not work
+
+I have not tested fully this metod as the problem described occurred to me

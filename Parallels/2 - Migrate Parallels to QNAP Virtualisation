@@ -1,0 +1,14 @@
+Just follow the steps to go from Parallels to VirtualBox
+Once the machine can boot up shut it down
+
+Then select File<Export Appliance
+
+and check also 'Include ISO images'
+This will create an .ova file
+
+Then on you qnap oepn the Virtualization Station 3 and click on
+Import<NAS< and select the .ova file
+
+The import function is also compatible with .ovf, .vmx or .qvm !
+
+Done then without having to do anything else your machine will boot up!

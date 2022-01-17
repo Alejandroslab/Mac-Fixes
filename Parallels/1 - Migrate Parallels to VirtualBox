@@ -1,0 +1,32 @@
+First thing to do to your Parallels VM: uninstall the Parallels Tools!
+
+You do not need to do anything else
+You do not even need to set the disk as non expanding
+
+Then:
+
+To get the disk file from Parallel Desktop, on Mac OS, they are usually under ~/Parallels/*.pvm. The .pvm are the VM files for Parallel Desktop, to get the Diskfile for each vm, just right click each .pvm file and select “Show Package Contents”:
+
+Right click the .hdd file and select “Show Package Contents” again:
+
+the .hds is the file that we need!
+
+Copy it out and rename is with what you want to but with file extension of .hdd
+
+
+Now you can create a new VM in VirtualBox
+
+Select the RAM and CPU as you wish then:
+
+In the “Hard disk” step, we need to select “Use an existing viryual hard disk file”, and click the file icon on the right hand:
+Click the “Add” button and select the “.hdd” file we copied from Parallel Desktop.
+
+After you select the file it will show up in the list. Confim you have it selected and click “Choose”, then click “create”.
+
+Then the VM is created, it should show up the list vm list in the left side of the main VirtualBox screen.
+
+Select your vm and click the “start” button to give it the first run.
+
+NOTE! You may need to emable 'EFI' from settings and in particular from:
+Settings->System->Motherboard
+Otherwise it will not boot
