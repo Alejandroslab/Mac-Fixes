@@ -10,3 +10,4 @@ And you are done.
 
 You can also use tile-type="small-spacer-tile";
 defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="small-spacer-tile";}'
+killall Dock
