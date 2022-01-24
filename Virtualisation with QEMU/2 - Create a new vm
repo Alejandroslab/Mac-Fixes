@@ -29,6 +29,7 @@ qemu-system-x86_64 \
 Change the .iso and the .qcow2 accordingly
 
 You do not need to change the CPU as 'Nehalem seems to work pretty good'
+(Anyways to see a list of supported architectures, run: qemu-system-x86_64 -cpu ? )
 
 Now make the script executable
 
@@ -40,7 +41,12 @@ and start it!
 ./start.sh
 
 
-After installing, once the machine is powered off. Remove the following line from the start.sh script:
+You can also run all the script as one command but with the script is more tidy and clear
+
+
+
+
+After installing your new virtualized OS and once the machine is powered off, remove the following line from the start.sh script:
 
 -cdrom ubuntu-18.04.3-desktop-amd64.iso \
 
