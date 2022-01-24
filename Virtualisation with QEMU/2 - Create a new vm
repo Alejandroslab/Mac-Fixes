@@ -50,6 +50,8 @@ After installing your new virtualized OS and once the machine is powered off, re
 
 -cdrom ubuntu-18.04.3-desktop-amd64.iso \
 
+REMEMBER! You have to remove it and not comment it with '#' otherwise it will not work 
+
 
 You can increase or decrease the memory with the -m option. The command above assigns 2 GB to the virtual machine.
 
