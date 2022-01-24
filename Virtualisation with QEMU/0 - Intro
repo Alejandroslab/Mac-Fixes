@@ -1,0 +1,6 @@
+QEMU has no GUI
+It will work only within the shell
+
+You can also use KVM
+
+KVM uses QEMU which supports several image types, among them raw, cow, qcow, qcow2, vmdk, vdi among others available.

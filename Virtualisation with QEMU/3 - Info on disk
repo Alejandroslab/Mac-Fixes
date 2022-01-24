@@ -1,0 +1,3 @@
+sudo qemu-img info mydisk.qcow2
+
+qemu-img info ubuntu-20.04.3-desktop-amd64.qcow2

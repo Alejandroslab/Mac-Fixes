@@ -1,0 +1,10 @@
+qemu-img resize rhel8.qcow2 +10G
+
+This will increase our disk by 10gigabytes
+
+Please note that qemu-img can’t resize an image which has snapshots. You will need to first remove all VM snapshots.
+
+You can also decrease with a minus instead of a plus:
+
+
+qemu-img resize rhel8.qcow2 -10G

@@ -1,0 +1,9 @@
+qemu-img convert -O out_fmt fname out_fname
+
+from vdmk to qcow2
+
+qemu-img convert -O qcow2 ~/ubuntu.vmdk ~/ubuntu.qcow2
+
+now the other way around:
+
+qemu-img convert -O vdmk ~/ubuntu.qcow2 ~/ubuntu.vdmk
