@@ -5,6 +5,12 @@ Run the following command to create an 10 GB hard disk (or adjust to your needs)
 
 qemu-img create -f qcow2 ~/QEMU/ubuntu-desktop-18.04.qcow2 10G
 
+Qemu also support vmdk, vdi, raw, vpc formats!
+
+________________
+REMEMBER! it is VMDK not VDMK
+remember it when you create your hard drive as it will not boot otherwise!
+________________
 
 You should now have a folder containing the Ubuntu ISO and the hard disk which Ubuntu will be installed on.
 
