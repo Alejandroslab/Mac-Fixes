@@ -1,0 +1,15 @@
+Follow the instruction in Mac Terminal Repo to create an icon to your dock with a qemu script
+
+remmeber only this:
+
+for the QEMU script you need to specify the disk path fully and you cannot use the '~' to indicate the homefolder!
+
+therefore the line:
+
+-drive file=ubuntu-desktop-18.04.qcow2,if=virtio \
+
+must become
+
+-drive file=/Users/MyUser/QEMU/ubuntu-desktop-18.04.qcow2,if=virtio \
+
+otherwise the script will not work as it will be opened in Terminal and terminal will not know where is the 'ubuntu-desktop....qcow2' file by default 
