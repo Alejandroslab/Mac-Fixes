@@ -1,5 +1,6 @@
 Go to the Ubuntu website and download the Ubuntu Desktop 18.04 ISO. Move the ISO to the ~/QEMU folder as it will make the QEMU command easier.
 
+FIRST CREATE THE DISK!
 Run the following command to create an 10 GB hard disk (or adjust to your needs) for the virtual machine.
 
 qemu-img create -f qcow2 ~/QEMU/ubuntu-desktop-18.04.qcow2 10G
@@ -50,7 +51,7 @@ After installing your new virtualized OS and once the machine is powered off, re
 
 -cdrom ubuntu-18.04.3-desktop-amd64.iso \
 
-REMEMBER! You have to remove it and not comment it with '#' otherwise it will not work 
+REMEMBER! You have to remove it and not comment it with '#' otherwise it will not work
 
 
 You can increase or decrease the memory with the -m option. The command above assigns 2 GB to the virtual machine.
