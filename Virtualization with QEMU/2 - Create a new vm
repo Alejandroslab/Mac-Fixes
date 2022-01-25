@@ -47,6 +47,10 @@ and start it!
 
 ./start.sh
 
+____________
+REMEMBER! If you make some changes just rerun the line:
+sudo chmod +x start.sh
+________________
 
 You can also run all the script as one command but with the script is more tidy and clear
 
