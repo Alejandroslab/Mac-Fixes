@@ -9,4 +9,6 @@ qemu-system-x86_64 \
   -display default,show-cursor=on \
 
 You can also set up the -full-screen option
-if it does not resize automatically you have to go to display settings and increase your resolution manually 
+but if it does not resize automatically you have to go to display settings and increase your resolution manually
+
+(worked on GarudaBlackArch)
