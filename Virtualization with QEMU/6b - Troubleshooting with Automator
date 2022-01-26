@@ -1,0 +1,33 @@
+If you cannot place your script in the dock (left side) you may not have successfully created the wrapper
+with the method of changin the extension to .app and then back to .sh
+
+It could happen. and it's a pain
+
+A workaround is to use Automator to create the wrapper
+
+just run it click on 'New' and then 'Application'
+
+after that look for 'Run Shell Script'
+
+leave everything as is (Shell: '/bin/zsh 'and pass input 'to stdin')and type in this code:
+
+
+
+cd ~/QEMU
+open MyVM.sh
+
+
+
+where MyVM.sh is the QEMU sript that we have previously created
+
+The first line is to be sure to having moved to the right folder (the folder in which the script is placed)
+
+Now test it clicking on Run
+
+If it works save it! go to File>Export type in a new and save it where you like
+
+You can now also set an icon with the same procedure (ctrl+i after selecting the application or right click on it and 'Get Info' then paste the icon after selecting the application previous icon)
+
+Finally drag the applicaiton to the dock!
+
+Done!!
