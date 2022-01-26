@@ -8,3 +8,7 @@ You can also decrease with a minus instead of a plus:
 
 
 qemu-img resize rhel8.qcow2 -10G
+
+
+REMEMBER ! vmdk file format will not allow you to resize it!
+You have to convert maybe

@@ -1,0 +1,1 @@
+qemu-img convert -f vmdk -O qcow2 mydisk.vmdk mydisk.qcow2
