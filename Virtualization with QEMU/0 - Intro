@@ -1,6 +1,11 @@
 QEMU has no GUI
-It will work only within the shell
+It will work only within the shell. No GUI!
 
 You can also use KVM
 
 KVM uses QEMU which supports several image types, among them raw, cow, qcow, qcow2, vmdk, vdi among others available.
+
+REMEMBER when you set up the virtual hard drives you can set the size but this size is intended as the maximum size
+and will not reserve any space in your system.
+It will grow up dinamically as you use your VM!
+Nice :)
