@@ -1,0 +1,12 @@
+For arch based vm like garud you need to set the
+-vga option with std and run with NVIDIA Drivers when asked in GRUB
+
+You may also want especially for Garuda Black Arch to set up 6gb of RAM
+
+qemu-system-x86_64 \
+  -m 6G \
+  -vga std \
+  -display default,show-cursor=on \
+
+You can also set up the -full-screen option
+if it does not resize automatically you have to go to display settings and increase your resolution manually 
