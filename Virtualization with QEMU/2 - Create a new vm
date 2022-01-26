@@ -10,6 +10,10 @@ Qemu also support vmdk, vdi, raw, vpc formats!
 ________________
 REMEMBER! it is VMDK not VDMK
 remember it when you create your hard drive as it will not boot otherwise!
+
+Anyways also:
+REMEMBER ! vmdk file format will not allow resize! So if you set up a wrong free space you must convert it or
+you will not be able to use it!
 ________________
 
 You should now have a folder containing the Ubuntu ISO and the hard disk which Ubuntu will be installed on.
