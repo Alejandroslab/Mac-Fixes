@@ -52,6 +52,20 @@ REMEMBER! If you make some changes just rerun the line:
 sudo chmod +x start.sh
 ________________
 
+Finally you can also add the option:
+-full-screen
+
+here:
+..
+-display default,show-cursor=on \
+-usb \
+-full-screen\
+-device usb-tablet \
+...
+This is useful in some system as this will allow to run immediately the VM in full screen
+_________
+
+
 You can also run all the script as one command but with the script is more tidy and clear
 
 
