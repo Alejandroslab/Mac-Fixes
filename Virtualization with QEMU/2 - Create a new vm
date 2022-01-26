@@ -47,9 +47,6 @@ and start it!
 
 ./start.sh
 
-____________
-REMEMBER! If you make some changes just rerun the line:
-sudo chmod +x start.sh
 ________________
 
 Finally you can also add the option:
@@ -86,6 +83,9 @@ Ubuntu should now be installed and it should run fast on macOS since we enabled 
 SOME TIPS:
 
 
-    On first boot after installing Ubuntu, the screen resolution might be too low. Right click on the desktop and open a terminal then run sudo apt update and sudo apt upgrade to install updates. Restart the system and the screen should then be big enough to increase the resolution in the Devices section of settings. 1440x900 works best for my MacBook Pro (2017 13.3-inch 2560 x 1600).
+    On first boot after installing Ubuntu, the screen resolution might be too low.
+    Right click on the desktop and open a terminal then run sudo apt update and sudo apt upgrade to install updates. Restart the system and the screen should then be big enough to increase the resolution in the Devices section of settings. 1440x900 works best for my MacBook Pro (2017 13.3-inch 2560 x 1600).
+
     If you need to SSH onto the system, you can add the following settings to the QEMU command: -net user,hostfwd=tcp::2222-:22 -net nic. Then you can connect via ssh user@loclhost -p 2222.
+
     You can enter and leave full screen by pressing Command + F when the mouse cursor is at the very top of the screen.

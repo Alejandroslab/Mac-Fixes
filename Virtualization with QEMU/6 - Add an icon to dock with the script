@@ -16,6 +16,9 @@ otherwise the script will not work as it will be opened in Terminal and terminal
 
 
 Anyways this could not work well especially when you make changes to your script (like delete a cdrom that was previously inserted)
-It seems that when you convert to .app file and then reconvert to .sh you lose some information and then it does not work
 
-It is nothing to do with the code is just the conversion from .app to .sh and viceversa 
+It seems that when you convert to .app file and then reconvert to .sh you lose some information and then it does not work. To make the script work again just do some edits deleting lines (you can use also vim) then re run it
+
+You will also see that the size of the file will increase
+
+It is nothing to do with the code is just the conversion from .app to .sh and viceversa
