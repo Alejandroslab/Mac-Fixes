@@ -16,6 +16,12 @@ leave everything as is (Shell: '/bin/zsh 'and pass input 'to stdin')and type in 
 cd ~/QEMU
 open MyVM.sh
 
+if in your path there is a space remember to indicate it:
+
+cd ~/QEMU/Garuda/Garuda\ i3
+
+This is the folder 'Garuda i3' inside 'Garuda' with a space 
+
 
 
 where MyVM.sh is the QEMU sript that we have previously created
