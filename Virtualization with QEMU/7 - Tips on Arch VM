@@ -12,3 +12,6 @@ You can also set up the -full-screen option
 but if it does not resize automatically you have to go to display settings and increase your resolution manually
 
 (worked on GarudaBlackArch)
+
+
+For Linux guests with recent enough upstream kernel, the "-vga virtio" is a better emulated display with the option for VirGL acceleration "-display sdl,gl=on" or "-display gtk,gl=on".
