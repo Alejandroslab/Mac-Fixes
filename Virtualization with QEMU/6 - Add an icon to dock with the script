@@ -15,12 +15,19 @@ must become
 otherwise the script will not work as it will be opened in Terminal and terminal will not know where is the 'ubuntu-desktop....qcow2' file by default. It always works considering the Home folder therefore adjustement is needed
 
 
+REMEMBER also that you must NOT place a space after the '=' otherwise it will not work
+It will give you the error:
+
+"drive with bus=0, unit=0 (index=0) exists"
+
+
+
 If you have a live cd image then you will need to fully specify the path also for the 'cdrom' component
 
  -cdrom /Users/MyUser/QEMU/ubuntu-desktop-18.04.iso
 
  In cdrom the keyword 'file= ' is not allowed therefore it will not work
- Just indicate the path in which terminal must look on 
+ Just indicate the path in which terminal must look on
 
 
 Anyways this could not work well especially when you make changes to your script (like delete a cdrom that was previously inserted)
