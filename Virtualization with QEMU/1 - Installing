@@ -1,1 +1,9 @@
 brew install qemu
+
+If you use Apple Silicon M1 you may need to change the path in which brew is installed
+
+just rerun the script to install brew and then run the last two lines:
+
+export....
+
+in order to add the path to the PATH
