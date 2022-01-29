@@ -20,7 +20,14 @@ if in your path there is a space remember to indicate it:
 
 cd ~/QEMU/Garuda/Garuda\ i3
 
-This is the folder 'Garuda i3' inside 'Garuda' with a space 
+This is the folder 'Garuda i3' inside 'Garuda' with a space
+
+You cannot use this:
+
+cd ""~/QEMU/Garuda/Garuda i3/"
+
+quotes or doble quotes, you must use the backslash
+
 
 
 

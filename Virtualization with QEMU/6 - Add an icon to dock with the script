@@ -1,6 +1,6 @@
 Follow the instruction in Mac Terminal Repo to create an icon to your dock with a qemu script
 
-remmeber only this:
+remember only this:
 
 for the QEMU script you need to specify the disk path fully and you cannot use the '~' to indicate the homefolder!
 
@@ -12,7 +12,15 @@ must become
 
 -drive file=/Users/MyUser/QEMU/ubuntu-desktop-18.04.qcow2,if=virtio \
 
-otherwise the script will not work as it will be opened in Terminal and terminal will not know where is the 'ubuntu-desktop....qcow2' file by default
+otherwise the script will not work as it will be opened in Terminal and terminal will not know where is the 'ubuntu-desktop....qcow2' file by default. It always works considering the Home folder therefore adjustement is needed
+
+
+If you have a live cd image then you will need to fully specify the path also for the 'cdrom' component
+
+ -cdrom /Users/MyUser/QEMU/ubuntu-desktop-18.04.iso
+
+ In cdrom the keyword 'file= ' is not allowed therefore it will not work
+ Just indicate the path in which terminal must look on 
 
 
 Anyways this could not work well especially when you make changes to your script (like delete a cdrom that was previously inserted)
@@ -22,3 +30,5 @@ It seems that when you convert to .app file and then reconvert to .sh you lose s
 You will also see that the size of the file will increase
 
 It is nothing to do with the code is just the conversion from .app to .sh and viceversa
+
+Therefore the solution with an Automator script is recommended
