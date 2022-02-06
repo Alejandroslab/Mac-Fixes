@@ -1,0 +1,18 @@
+You can buy the QNAP QNA-T310G1S adapter that will allow you to connect with a 10gbps connection using a Thunderbolt 3 port
+(this works also with windows but you need to install drivers)
+
+REMEMBER this:
+when you connect it the device is not recognized automatically
+Go to System Preferences then Network then Click on '+'
+Select Thunderbolt Ethernet Slot 1 (the 1 may be 2 or other number accordingly to which port you have connected the adapter )
+
+Then under Configure IPv4 Set it as manually and proceed inserting the IP, subnet and router
+
+You can check that the device is the 10gbps one clicking on 'Advanced' then
+'Hardware'.
+In Configure set it as 'Manually' you will see then 'Speed: 10Gbase-T' and 'Duplex: full-duplex, flow-control'
+Leave this setting as they are except for the MTU that MUST BE SET as 'Jumbo (9000)'
+
+DONE!
+
+The speed test signals around 330-500 MB per second when transfering a file around the LAN 
