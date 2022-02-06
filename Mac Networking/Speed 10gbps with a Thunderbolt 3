@@ -15,4 +15,7 @@ Leave this setting as they are except for the MTU that MUST BE SET as 'Jumbo (90
 
 DONE!
 
-The speed test signals around 330-500 MB per second when transfering a file around the LAN 
+The speed test signals around 330-500 MB per second when transfering a file around the LAN (between devices that support 10gbps connection of course)
+
+REMEMBER the cable MUST be THUNDERBOLT 3
+You may want to use it in a NAS and it should work but if you use an adapter you may lose performance as USB 3.2 goes at 5 gbps (Thunderbolt 3 can theoretically support 40gbps)
