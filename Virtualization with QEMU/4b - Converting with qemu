@@ -1,1 +1,7 @@
 qemu-img convert -f vmdk -O qcow2 mydisk.vmdk mydisk.qcow2
+
+You can also convert raw images. Raw images have usually the .img extension:
+
+This example will convert a raw image file named image.img to a qcow2 image file.
+
+qemu-img convert -f raw -O qcow2 image.img image.qcow2
