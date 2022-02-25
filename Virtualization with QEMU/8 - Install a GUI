@@ -1,0 +1,8 @@
+You can have a basic GUI 
+with utm 
+
+just install via brew:
+
+brew install --cask utm
+
+do not install from the website as that version have less option and configurations
