@@ -1,0 +1,3 @@
+from macos 10.11 and above:
+
+sudo killall -HUP mDNSResponder
