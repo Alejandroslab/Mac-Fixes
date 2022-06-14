@@ -1,0 +1,16 @@
+You can use OVF TOOL that is a command line program that comes with VMWare
+
+just move to the path
+
+cd /Applications/VMware\ Fusion.app/Contents/Library/VMware\ OVF\ Tool/
+
+then run this command:
+
+./ovftool --acceptAllEulas ~/Documents/Virtual\ Machines.localized/Windows\ 7.vmwarevm/Windows\ 7.vmx ~/Documents/Win7.ova
+
+changing according to your vm and the destionation folder with the final .ova
+
+
+done!
+
+Now you can import even in VMWare ESXi
