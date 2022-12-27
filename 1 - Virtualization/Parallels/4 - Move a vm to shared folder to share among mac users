@@ -1,0 +1,22 @@
+THE PROCEDURE IS FOR ALL MAC USERS 
+
+Open the Parallels Desktop Control Center, right-click on your VM in the list, and choose “Open in Finder”.
+
+
+    When the Finder window opens, you need to move the VM’s bundle (.pvm file) to the /Users/Shared/Parallels folder.
+    Once the .pvm file is moved to the new location, your VM will appear to be unavailable in the Control Center (It will have a question mark on it). Right-click on it, select Locate, and choose the new path to your .pvm file we talked about above.
+
+In order to give the other users access to the same VM, you need to set the correct permissions. You can choose the exact user accounts to share your VM with (in case you might not want to share it with all the users). To do that:
+
+    Launch Terminal (Applications/Utilities/Terminal) and type in the following command:
+
+    cd /Users/Shared/Parallels
+
+
+    Now, to share the VM, enter the following command (don’t hit Enter yet!):
+
+    sudo chmod -R og+rwx /Users/Shared/Parallels/Windwso
+
+Pr drag and drop your VM’s .pvm file from Finder to the Terminal window.
+
+Users/Shared/Parallels
