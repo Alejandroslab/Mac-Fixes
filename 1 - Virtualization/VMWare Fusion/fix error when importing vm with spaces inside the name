@@ -1,0 +1,4 @@
+first change all the files with a same name without spaces  
+
+Then yoy need to change the .ovf manifest file with the new names to the .vmdk and to the .nvram
+change the name of the file accordingly and save then retry importing the vm in vmware fusion 
